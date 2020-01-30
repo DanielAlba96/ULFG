@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+  <style name="MainTheme" parent="MainTheme.Base">
+  </style>
+  <!-- Base theme applied no matter what API -->
+  <style name="MainTheme.Base" parent="Theme.AppCompat.NoActionBar">
+    <!--If you are using revision 22.1 please use just windowNoTitle. Without android:-->
+    <item name="android:windowBackground">@drawable/splash</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowFullscreen">true</item>
+    <!--We will be using the toolbar so no need to show ActionBar-->
+    <!-- Set theme colors from http://www.google.com/design/spec/style/color.html#color-color-palette -->
+    <!-- colorAccent is used as the default value for colorControlActivated
+         which is used to tint widgets -->
+    <!-- Esto es para el color del texto cuando el componente esta desabilitado. Tiñe ambos estados pero sobrescribo el 
+    activo en el proyecto de Forms. Solo afecta al inactivo-->
+    <item name="android:textColorPrimary">#636363</item>
+    <item name="popupTheme">@style/ActionModeOverflowMenu</item>
+    <item name="alertDialogTheme">@style/AlertDialogCustom</item>
+    <item name="android:actionMenuTextColor">#DB8D28</item>
+    <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+    <item name="actionModeCloseButtonStyle">@style/ContextArrowStyle</item>
+    <item name="colorControlHighlight">#FFBD59</item>
+    <item name="colorControlNormal">#212121</item>
+    <item name="colorAccent">#DB8D28</item>
+    <!-- You can also set colorControlNormal, colorControlActivated
+         colorControlHighlight and colorSwitchThumbNormal. -->
+    <item name="windowActionModeOverlay">true</item>
+    <item name="android:actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+    
+    <!-- Esto es para las listView-->
+    <item name="android:colorPressedHighlight">#FFBD59</item>
+    <item name="android:colorFocusedHighlight">#FFBD59</item>
+    <item name="android:colorActivatedHighlight">#FFBD59</item>
+
+    <item name="android:activatedBackgroundIndicator">@style/activatedBackgroundIndicator</item>
+  
+  </style>
+
+  <style name="activatedBackgroundIndicator">
+    <item name="android:background">#FFBD59</item>
+  </style>
+
+  <style name="ActionModeOverflowMenu" parent="@style/Widget.AppCompat.ListPopupWindow">
+    <item name="android:textColor">#DB8D28</item>
+    <item name="android:background">#424242</item>
+  </style>
+
+  <style name="ContextArrowStyle" parent="@style/Widget.AppCompat.ActionButton.CloseMode">
+    <item name="android:tint">#DB8D28</item>
+  </style>
+
+  <style name="ActionButtonOverflow" parent="@style/Widget.AppCompat.ActionButton.Overflow">
+    <item name="android:tint">#DB8D28</item>
+  </style>
+
+  <style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+    <item name="spinBars">true</item>
+    <item name="color">#DB8D28</item>
+  </style>
+
+  <style name="AlertDialogCustom" parent="Theme.AppCompat.Dialog.Alert">
+    <item name="android:textColor">#DB8D28</item>
+    </style>
+    
+</resources>
+
+

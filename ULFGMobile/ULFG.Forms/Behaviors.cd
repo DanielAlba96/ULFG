@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ULFG.Forms.Behaviors.Events.ArgsConverters.ItemTappedEventArgsConverter" BaseTypeListCollapsed="true">
+    <Position X="9" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Behaviors\EventToCommand\ArgsConverters\TappedItemArgsConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ULFG.Forms.Behaviors.Events.ArgsConverters.ToggledArgsConverter" BaseTypeListCollapsed="true">
+    <Position X="9" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Behaviors\EventToCommand\ArgsConverters\ToggledArgsConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ULFG.Forms.Behaviors.Events.ViewsEventsBehaviors.BehaviorEventBase&lt;T&gt;">
+    <Position X="3" Y="0.5" Width="3" />
+    <Members>
+      <Method Name="OnBindingContextChanged" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAgAAAABIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Behaviors\EventToCommand\ViewsEventsBehaviors\BehaviorEventBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Behaviors.Events.ViewsEventsBehaviors.ListViewEventBehavior">
+    <Position X="2.25" Y="3" Width="2.25" />
+    <Members>
+      <Method Name="DeregisterEvent" Hidden="true" />
+      <Method Name="OnEvent" Hidden="true" />
+      <Method Name="OnEventNameChanged" Hidden="true" />
+      <Method Name="RegisterEvent" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAIAAAAABUMgAAIABEAAAAAAAAKACAAAQAAA=</HashCode>
+      <FileName>Behaviors\EventToCommand\ViewsEventsBehaviors\ListViewEventBehavior.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Behaviors.Events.ViewsEventsBehaviors.SwitchEventBehavior">
+    <Position X="4.75" Y="3" Width="2.25" />
+    <Members>
+      <Method Name="DeregisterEvent" Hidden="true" />
+      <Method Name="OnEvent" Hidden="true" />
+      <Method Name="OnEventNameChanged" Hidden="true" />
+      <Method Name="RegisterEvent" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAIIACAAIAAAAABgMgAAIABAAAAAABAACACAAAQAAA=</HashCode>
+      <FileName>Behaviors\EventToCommand\ViewsEventsBehaviors\SwitchEventBehavior.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Behaviors.Validators.EntryLengthValidatorBehavior">
+    <Position X="6.5" Y="0.75" Width="2.25" />
+    <Members>
+      <Method Name="OnEntryTextChanged" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAABAgAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Behaviors\Validators\EntryLengthValidatorBehavior.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Behaviors.Validators.EntryLengthValidatorBehaviorMultiLine">
+    <Position X="7.25" Y="3.5" Width="3" />
+    <Members>
+      <Method Name="OnEntryTextChanged" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAABAgAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Behaviors\Validators\EntryLengthValidatorBehaviorMultiLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

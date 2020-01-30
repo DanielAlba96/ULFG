@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ULFG.Forms.About">
+    <Position X="9" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Main\About.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.App">
+    <Position X="2.25" Y="2" Width="2.25" />
+    <Members>
+      <Method Name="OnMessageReceived" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BAAAAAIAAAAApAIwABAAAAAAAAAAAAACAAAIAAAQAgA=</HashCode>
+      <FileName>Main\App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.ListGroupViewCell">
+    <Position X="2" Y="3.75" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Main\ListGroupViewCell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.MainPage">
+    <Position X="4.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Main\MainPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.MasterListGroup">
+    <Position X="8.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Main\MasterListGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.MasterPageItem">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAQAEAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Main\MasterPageItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.MasterPageView">
+    <Position X="4.75" Y="3.75" Width="1.75" />
+    <Members>
+      <Method Name="DetailSelected" Hidden="true" />
+      <Method Name="EagerPageLoading" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAEAAAAAAAQAAAQAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Main\MasterPageView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.MasterPageViewModel">
+    <Position X="6.75" Y="3.75" Width="2" />
+    <Members>
+      <Method Name="Initialize" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CAABAAAAAAAAAQAAAAAAAAAAAAAAEIAAAAAAQAAAAAA=</HashCode>
+      <FileName>Main\MasterPageViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

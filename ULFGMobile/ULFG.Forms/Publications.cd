@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ULFG.Forms.Publications.ViewModels.NewPublicationViewModel">
+    <Position X="9.5" Y="3.5" Width="2.25" />
+    <Members>
+      <Method Name="CreateAttachCommand" Hidden="true" />
+      <Method Name="ImageTappedCommand" Hidden="true" />
+      <Method Name="SavePublicationCommand" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAgAACCAkAAAAAAAICAIAAAAAAAAgCAEAAQIAAEAQA=</HashCode>
+      <FileName>Publications\ViewModels\NewPublicationViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Publications.ViewModels.PortalViewModel">
+    <Position X="12.25" Y="3.5" Width="2" />
+    <Members>
+      <Method Name="HandleFollowChange" Hidden="true" />
+      <Method Name="HandlePubliChanged" Hidden="true" />
+      <Method Name="NewPublicationCommand" Hidden="true" />
+      <Method Name="RefreshCommand" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEBACACAgAABQAAAAhAAAMAAAEABAAAAAQA=</HashCode>
+      <FileName>Publications\ViewModels\PortalViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Publications.Views.ImageDetail">
+    <Position X="14.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Publications\Views\ImageDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Publications.Views.NewPublicationView">
+    <Position X="9.75" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Publications\Views\NewPublicationView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Publications.Views.PortalView">
+    <Position X="11.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Publications\Views\PortalView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Publications.Views.PublicationCell">
+    <Position X="13.5" Y="1.75" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAACAAAAAAAAAAAQAAIIAAAAgAAAAAAAAgAAA=</HashCode>
+      <FileName>Publications\Views\PublicationCell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

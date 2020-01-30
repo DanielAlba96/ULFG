@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ULFG.Core.Data.ItemManager.Impl.MessageManager" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="4.5" Width="2" />
+    <Members>
+      <Property Name="IsOfflineEnabled" Hidden="true" />
+      <Method Name="MessageManager" Hidden="true" />
+      <Method Name="SyncMessages" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AABAAAAQAAIAGDAAAAAAAgAAAAIBAAAAEQAABIiAIAA=</HashCode>
+      <FileName>Data\ItemManager\impl\MessageManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ULFG.Core.Data.ItemManager.Impl.GuildMemberManager" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="4.5" Width="2.5" />
+    <Members>
+      <Method Name="GuildMemberManager" Hidden="true" />
+      <Property Name="IsOfflineEnabled" Hidden="true" />
+      <Method Name="SyncGuildMembers" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AADgAAAAgAAA2AAAAAAQCAAAAAABAAgAECAEBABAAAA=</HashCode>
+      <FileName>Data\ItemManager\impl\GuildMemberManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ULFG.Core.Data.ItemManager.Impl.PublicationManager" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="3.75" Width="2.5" />
+    <Members>
+      <Property Name="IsOfflineEnabled" Hidden="true" />
+      <Method Name="PublicationManager" Hidden="true" />
+      <Method Name="SyncPublications" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AABIAAAABQAAGAAAAQABgAAAAAABAAAAAAAABAABAAA=</HashCode>
+      <FileName>Data\ItemManager\impl\PublicationManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.896" />
+  </Class>
+  <Class Name="ULFG.Core.Data.ItemManager.Impl.UserManager" BaseTypeListCollapsed="true">
+    <Position X="1.75" Y="4.25" Width="2.25" />
+    <Members>
+      <Property Name="IsOfflineEnabled" Hidden="true" />
+      <Method Name="SyncUsers" Hidden="true" />
+      <Method Name="UserManager" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAJAAAAAABAAGQAAAAEAAABAAAABBAAAAAAIBEQABAA=</HashCode>
+      <FileName>Data\ItemManager\impl\UserManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.21" />
+  </Class>
+  <Class Name="ULFG.Core.Data.Constants">
+    <Position X="9.5" Y="7" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAFAAAABAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Constants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ULFG.Core.Data.ItemManager.IMessageManager">
+    <Position X="7.25" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAIAADAAAAAAAAAAAAIAAAAAAQAAAIiAIAA=</HashCode>
+      <FileName>Data\ItemManager\IMessageManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ULFG.Core.Data.ItemManager.IPublicationManager">
+    <Position X="9.75" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAABQAAAAAAAQABgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\ItemManager\IPublicationManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ULFG.Core.Data.ItemManager.IUserManager">
+    <Position X="1.75" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAQAAAAEAAABAAAAABAAAAAAIAAQABAA=</HashCode>
+      <FileName>Data\ItemManager\IUserManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ULFG.Core.Data.ItemManager.IGuildMemberManager">
+    <Position X="4.5" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AACgAAAAAAAAwAAAAAAQCAAAAAAAAAAAECAEAABAAAA=</HashCode>
+      <FileName>Data\ItemManager\IGuildMemberManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

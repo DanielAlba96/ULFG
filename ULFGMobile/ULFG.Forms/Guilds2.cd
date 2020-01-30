@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ULFG.Forms.Guilds.ViewModels.GuildProfileTabViewModel">
+    <Position X="9" Y="4.75" Width="2.25" />
+    <Members>
+      <Method Name="ContactCommand" Hidden="true" />
+      <Method Name="DisbandCommand" Hidden="true" />
+      <Method Name="HandleGuildChanged" Hidden="true" />
+      <Method Name="LeaveGuild" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>RAAAAAAIAIAEBGAACAUEAAEEAAMAAgwCAAAAAAAAAAA=</HashCode>
+      <FileName>Guilds\ViewModels\GuildProfileTabViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Guilds.ViewModels.MemberListViewModel">
+    <Position X="4.5" Y="4.75" Width="2.25" />
+    <Members>
+      <Method Name="HandleGuildMemberChanged" Hidden="true" />
+      <Method Name="ItemTappedCommand" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QAAAAAAgAAAACAAAAAAEAAAEgBAAgAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Guilds\ViewModels\MemberListViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Guilds.ViewModels.NewGuildViewModel">
+    <Position X="11.5" Y="4.75" Width="1.75" />
+    <Members>
+      <Method Name="CreateCommand" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AEABIAAAAAAAAAAAACAEAAwEAAAAAEAAAAAAQAIAAAA=</HashCode>
+      <FileName>Guilds\ViewModels\NewGuildViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Guilds.ViewModels.SearchGuildViewModel">
+    <Position X="2.25" Y="4.75" Width="2" />
+    <Members>
+      <Method Name="HandleGuildChanged" Hidden="true" />
+      <Method Name="SearchCommand" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAiAAAAAAAAAAAABAEACAAgAAAAAIgAUA=</HashCode>
+      <FileName>Guilds\ViewModels\SearchGuildViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Guilds.ViewModels.UserSelectViewModel">
+    <Position X="7" Y="4.75" Width="1.75" />
+    <Members>
+      <Method Name="ItemTapped" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAECAAAAAAEAAAAABQAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Guilds\ViewModels\UserSelectViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Guilds.Views.GuildCell">
+    <Position X="4.5" Y="7.25" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAEAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Guilds\Views\GuildCell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Guilds.Views.GuildProfileTabView">
+    <Position X="9.25" Y="3" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Guilds\Views\GuildProfileTabView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Guilds.Views.GuildTabView">
+    <Position X="7" Y="7.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAA=</HashCode>
+      <FileName>Guilds\Views\GuildTabView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Guilds.Views.MemberListView">
+    <Position X="4.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Guilds\Views\MemberListView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Guilds.Views.NewGuildView">
+    <Position X="11.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Guilds\Views\NewGuildView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Guilds.Views.SearchGuildView">
+    <Position X="2.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Guilds\Views\SearchGuildView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Guilds.Views.UserSelectView">
+    <Position X="6.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Guilds\Views\UserSelectView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

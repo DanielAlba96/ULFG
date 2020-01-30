@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ULFG.Core.Logic.CryptoHelper">
+    <Position X="5" Y="0.75" Width="2.25" />
+    <Members>
+      <Method Name="GetStringFromHash" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logic\CryptoHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Core.Logic.GuildOperations">
+    <Position X="10.25" Y="2.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAQABAAAAAEAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Logic\GuildOperations.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Core.Logic.MessageOperations">
+    <Position X="10.25" Y="0.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAIAAAAAAACAAAAAAAAAAAAEAAAEAAgAAAAA=</HashCode>
+      <FileName>Logic\MessageOperations.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Core.Logic.RegisterClient">
+    <Position X="4" Y="2" Width="3.25" />
+    <Members>
+      <Method Name="RetrieveRegistrationIdOrRequestNewOneAsync" Hidden="true" />
+      <Method Name="UpdateRegistrationAsync" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="ULFG.Core.Logic.RegisterClient.DeviceRegistration">
+        <TypeIdentifier>
+          <NewMemberFileName>Logic\RegisterClient.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAQAAAAAAAAgAAAAAAAAAAAAgAAAAAAAAIAA=</HashCode>
+      <FileName>Logic\RegisterClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Core.Logic.SocialOperations">
+    <Position X="7.5" Y="3" Width="2.5" />
+    <Members>
+      <Method Name="BlockUser" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAQAAAAAAIBAAAAAAAAAABAAAAAAgAAAAAA=</HashCode>
+      <FileName>Logic\SocialOperations.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Core.Logic.UserOperations">
+    <Position X="7.5" Y="0.5" Width="2.5" />
+    <Members>
+      <Method Name="CreateSalt" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAQCE=</HashCode>
+      <FileName>Logic\UserOperations.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Core.Logic.Settings">
+    <Position X="13" Y="1.25" Width="1.75" />
+    <Members>
+      <Property Name="AppSettings" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAACAAAAAkAAAAAAAAAAAIAAAAAAAAQAA=</HashCode>
+      <FileName>Logic\Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

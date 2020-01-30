@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ULFG.Forms.Network.ViewModels.BlockListViewModel">
+    <Position X="7.5" Y="5" Width="1.75" />
+    <Members>
+      <Method Name="HandleBlockChange" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAABACAAAAAAAAAAAABAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Network\ViewModels\BlockListViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Network.ViewModels.FollowedListViewModel">
+    <Position X="11.75" Y="5" Width="2" />
+    <Members>
+      <Method Name="HandleFollowChange" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAABACAAAAAAAAAAAAhAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Network\ViewModels\FollowedListViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Network.ViewModels.FollowingListViewModel">
+    <Position X="9.5" Y="5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAABACAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Network\ViewModels\FollowingListViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Network.Views.BlockListView">
+    <Position X="7.75" Y="2.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Network\Views\BlockListView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Network.Views.FollowedListView">
+    <Position X="12" Y="2.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Network\Views\FollowedListView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Network.Views.FollowingListView">
+    <Position X="9.75" Y="2.75" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Network\Views\FollowingListView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Network.Views.MyNetwork">
+    <Position X="5.75" Y="2.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAA=</HashCode>
+      <FileName>Network\Views\MyNetwork.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

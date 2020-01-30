@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ULFG.Forms.Profiles.ViewModels.ChangePasswordViewModel">
+    <Position X="10.75" Y="4.25" Width="2.25" />
+    <Members>
+      <Method Name="SaveCommand" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAARIAAAAAAAAAAAAAKAAAAAABABAIAAAAgAAAEAQA=</HashCode>
+      <FileName>Profiles\ViewModels\ChangePasswordViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Profiles.ViewModels.ExtProfileViewModel">
+    <Position X="6.5" Y="4.25" Width="1.75" />
+    <Members>
+      <Method Name="BlockCommand" Hidden="true" />
+      <Method Name="DetermineText" Hidden="true" />
+      <Method Name="FollowCommand" Hidden="true" />
+      <Method Name="SendCommand" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CAIEAAAAAQBRAMIAIAACAAAQAoAKlBAACIAAYAAEAhE=</HashCode>
+      <FileName>Profiles\ViewModels\ExtProfileViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Profiles.ViewModels.OwnProfileViewModel">
+    <Position X="8.5" Y="4.25" Width="2" />
+    <Members>
+      <Method Name="ChangeBioCommand" Hidden="true" />
+      <Method Name="ChangeEmailCommand" Hidden="true" />
+      <Method Name="ChangeIconCommand" Hidden="true" />
+      <Method Name="ChangeNickCommand" Hidden="true" />
+      <Method Name="IsValidEmail" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>GBEBQAAACGACAgACCUAACCEARggBAEAgAIJAUwQAIRk=</HashCode>
+      <FileName>Profiles\ViewModels\OwnProfileViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Profiles.ViewModels.UserListViewModel">
+    <Position X="13.25" Y="4.25" Width="1.75" />
+    <Members>
+      <Method Name="SearchCommand" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAiAAAAAAAAAAAABAEACAAgAAAAAIgAAA=</HashCode>
+      <FileName>Profiles\ViewModels\UserListViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Profiles.Views.ChangePasswordView">
+    <Position X="10.75" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Profiles\Views\ChangePasswordView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Profiles.Views.ExtProfileView">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Profiles\Views\ExtProfileView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Profiles.Views.OwnProfileView">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Profiles\Views\OwnProfileView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Profiles.Views.UserCell">
+    <Position X="10.75" Y="7" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QIAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Profiles\Views\UserCell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Profiles.Views.UserListView">
+    <Position X="13.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Profiles\Views\UserListView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

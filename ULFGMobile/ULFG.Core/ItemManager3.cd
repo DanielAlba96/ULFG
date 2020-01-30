@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ULFG.Core.Data.ItemManager.Impl.MessageManager" BaseTypeListCollapsed="true">
+    <Position X="5" Y="4" Width="2" />
+    <Members>
+      <Method Name="MessageManager" Hidden="true" />
+      <Method Name="SyncMessages" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AABAAAAQAAIACDAAAAAAAgAAAAIBAAAAEQAABIiAIAA=</HashCode>
+      <FileName>Data\ItemManager\impl\MessageManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ULFG.Core.Data.ItemManager.Impl.PublicationManager" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="3.25" Width="2.5" />
+    <Members>
+      <Method Name="PublicationManager" Hidden="true" />
+      <Method Name="SyncPublications" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AABIAAAABQAAGAAAAQABgAAAAAABAAAAAAAABAABAAA=</HashCode>
+      <FileName>Data\ItemManager\impl\PublicationManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.896" />
+  </Class>
+  <Class Name="ULFG.Core.Data.Constants">
+    <Position X="7.25" Y="6.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAFAAAABAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Constants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Core.Data.ItemManager.Sync.SyncClientProvider">
+    <Position X="10" Y="0.75" Width="1.75" />
+    <Members>
+      <Method Name="HandleUpdate" Hidden="true" />
+      <Method Name="SyncClientProvider" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAACAAAAAAABAEAAAABAAAAAAAABACAAAQ=</HashCode>
+      <FileName>Data\ItemManager\Sync\SyncClientProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ULFG.Core.Data.ItemManager.IMessageManager">
+    <Position X="5" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAIAADAAAAAAAAAAAAIAAAAAAQAAAIiAIAA=</HashCode>
+      <FileName>Data\ItemManager\IMessageManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ULFG.Core.Data.ItemManager.IPublicationManager">
+    <Position X="7.5" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAABQAAAAAAAQABgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\ItemManager\IPublicationManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

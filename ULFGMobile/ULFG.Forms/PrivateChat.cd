@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ULFG.Forms.PrivateChat.ViewModels.ChatListViewModel">
+    <Position X="10" Y="4.25" Width="1.75" />
+    <Members>
+      <Method Name="HandleDeleteChat" Hidden="true" />
+      <Method Name="HandleNewMessage" Hidden="true" />
+      <Method Name="RefreshCommand" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABACCAAgAAAAAACABAAAAAAAEARAAAAAQA=</HashCode>
+      <FileName>PrivateChat\ViewModels\ChatListViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.PrivateChat.ViewModels.SendMessageViewModel">
+    <Position X="5.5" Y="4.25" Width="2" />
+    <Members>
+      <Method Name="SendCommand" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAABAAAHEAAIAAAAQA=</HashCode>
+      <FileName>PrivateChat\ViewModels\SendMessageViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.PrivateChat.Views.ChatListCell">
+    <Position X="5.25" Y="6.75" Width="2.25" />
+    <Members>
+      <Method Name="OnBindingContextChanged" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAIAAAAAIAAAEIAAAAAAA=</HashCode>
+      <FileName>PrivateChat\Views\ChatListCell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.PrivateChat.Views.ChatListView">
+    <Position X="10" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PrivateChat\Views\ChatListView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.PrivateChat.Views.IndividualChatView">
+    <Position X="7.75" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PrivateChat\Views\IndividualChatView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.PrivateChat.Views.SendMessageView">
+    <Position X="5.5" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PrivateChat\Views\SendMessageView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.PrivateChat.ViewModels.IndividualChatViewModel">
+    <Position X="7.75" Y="4.25" Width="2" />
+    <Members>
+      <Method Name="HandleNewMessage" Hidden="true" />
+      <Method Name="LeaveCommand" Hidden="true" />
+      <Method Name="SendCommand" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AABDgAAIAICACEAAAEAAAEACABEABAAICFAIAAQAARA=</HashCode>
+      <FileName>PrivateChat\ViewModels\IndividualChatViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

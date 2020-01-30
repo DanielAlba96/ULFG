@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ULFG.Forms.Login.ViewModels.LoginViewModel">
+    <Position X="12.25" Y="3.25" Width="1.75" />
+    <Members>
+      <Method Name="LoginCommand" Hidden="true" />
+      <Method Name="RegisterCommand" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAQABAAAAAAABBACCAAIQIACAAAA=</HashCode>
+      <FileName>Login\ViewModels\LoginViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Login.ViewModels.RegisterViewModel">
+    <Position X="10.25" Y="3.25" Width="1.75" />
+    <Members>
+      <Method Name="IsValidEmail" Hidden="true" />
+      <Method Name="RegisterCommand" Hidden="true" />
+      <Method Name="ValidateFields" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAABQAAAAGQAAAAAAQABAAAAAACBBAKAAAJAAgAAAAE=</HashCode>
+      <FileName>Login\ViewModels\RegisterViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Login.Views.LoginView">
+    <Position X="8.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Login\Views\LoginView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Login.Views.RegisterView">
+    <Position X="8.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Login\Views\RegisterView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

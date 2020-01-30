@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ULFG.Forms.Guilds.ViewModels.EditGuildViewModel">
+    <Position X="8" Y="0.75" Width="2.25" />
+    <Members>
+      <Method Name="ChangeDescCommand" Hidden="true" />
+      <Method Name="ChangeImageCommand" Hidden="true" />
+      <Method Name="ChangeMsgCommand" Hidden="true" />
+      <Method Name="ChangeNameCommand" Hidden="true" />
+      <Method Name="ChangeVisibilityCommand" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BEAEMAAAgkAAAAAkgCAtAAwIAFCADDAKIIAQSEIBAQw=</HashCode>
+      <FileName>Guilds\ViewModels\EditGuildViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Guilds.ViewModels.GuildChatViewModel">
+    <Position X="10.5" Y="2.25" Width="1.75" />
+    <Members>
+      <Method Name="HandleGuildKick" Hidden="true" />
+      <Method Name="HandleNewMessage" Hidden="true" />
+      <Method Name="SendCommand" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAACAAAAEAEAAACABAABAAICEAAAAAAAQA=</HashCode>
+      <FileName>Guilds\ViewModels\GuildChatViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Guilds.ViewModels.GuildInfoViewModel">
+    <Position X="12.5" Y="2.75" Width="2.25" />
+    <Members>
+      <Method Name="HandleGuildChanged" Hidden="true" />
+      <Method Name="HandleGuildMemberChanged" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BAAAAAAACkAAAABAAAAEAAAAgAAABAEIAAAEAAAAAAA=</HashCode>
+      <FileName>Guilds\ViewModels\GuildInfoViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Guilds.ViewModels.GuildListViewModel">
+    <Position X="6" Y="3" Width="1.75" />
+    <Members>
+      <Method Name="HandleGuildChanged" Hidden="true" />
+      <Method Name="NewCommand" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAEDACCCAgAAAAAAAABAAAAAAAEAAAAAAAQA=</HashCode>
+      <FileName>Guilds\ViewModels\GuildListViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Guilds.Views.EditGuildView">
+    <Position X="10.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Guilds\Views\EditGuildView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Guilds.Views.GuildChatView">
+    <Position X="10.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Guilds\Views\GuildChatView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Guilds.Views.GuildInfoView">
+    <Position X="12.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Guilds\Views\GuildInfoView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Forms.Guilds.Views.GuildListView">
+    <Position X="6.25" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Guilds\Views\GuildListView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

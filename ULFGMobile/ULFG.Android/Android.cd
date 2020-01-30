@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ULFG.Droid.AndroidResourceManager" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="3.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAIAAAAAAAAEAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>PlatformImpl\AndroidResourceManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ULFG.Droid.AndroidNotificationManager" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>PlatformImpl\AndroidNotificationManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ULFG.Droid.FirebaseTokenRefresh">
+    <Position X="11.75" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Firebase\FirebaseTokenRefresh.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Droid.FirebaseMessageHandler">
+    <Position X="11.5" Y="1.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Firebase\FirebaseMessageHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFG.Droid.MainActivity">
+    <Position X="8.75" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAACAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>MainActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

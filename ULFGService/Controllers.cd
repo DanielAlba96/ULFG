@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ULFGService.Controllers.BlockController">
+    <Position X="5" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAIQAAAAAAAAAAAAACAAAAEAAAAAQ=</HashCode>
+      <FileName>Controllers\BlockController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFGService.Controllers.ChatController">
+    <Position X="7" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAKAAAQAAAAAAAAAAAAAAAACAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\ChatController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFGService.Controllers.FollowController">
+    <Position X="5" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAgAAAAQAAAAAAAAAAAAQAAAAAIEAAAAAAAAA=</HashCode>
+      <FileName>Controllers\FollowController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFGService.Controllers.GuildController">
+    <Position X="8.75" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAIQAAAAAAAAAAAAEAAABAAAAAAgAAAAA=</HashCode>
+      <FileName>Controllers\GuildController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFGService.Controllers.GuildMemberController">
+    <Position X="10.75" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgRAAAAACAAAAAAAAAAQAAABAAAAAAAA=</HashCode>
+      <FileName>Controllers\GuildMemberController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFGService.Controllers.MessageController">
+    <Position X="7" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAEAAAAAAUAAAAAAAAAEAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Controllers\MessageController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFGService.Controllers.PublicationController">
+    <Position X="9" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAhAARAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Controllers\PublicationController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFGService.Controllers.UserController">
+    <Position X="11.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAEAAAAAAAAAIAAAAAAMAAAAABAAAA=</HashCode>
+      <FileName>Controllers\UserController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFGService.Controllers.DeviceRegistrationController">
+    <Position X="13" Y="2.75" Width="2.5" />
+    <Members>
+      <Method Name="ReturnGoneIfHubResponseIsGone" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="ULFGService.Controllers.DeviceRegistrationController.DeviceRegistration">
+        <TypeIdentifier>
+          <NewMemberFileName>Controllers\DeviceRegistrationController.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAIAAAgAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAABAA=</HashCode>
+      <FileName>Controllers\DeviceRegistrationController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

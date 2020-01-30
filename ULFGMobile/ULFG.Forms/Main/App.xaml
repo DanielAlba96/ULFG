@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ULFG.Forms.App">
+	<Application.Resources>
+        <ResourceDictionary>
+            
+            <!--Primary Colors-->
+            <Color x:Key="MainGray">#424242</Color>
+            <Color x:Key="BlackGray">#212121</Color>
+            <Color x:Key="LightGray">#E0E0E0</Color>
+            <!--Secondary Colors-->
+            <Color x:Key="MainOrange">#DB8D28</Color>
+            <Color x:Key="BlackOrange">#A45F00</Color>
+            <Color x:Key="LightOrange">#FFBD59</Color>
+                      
+            <Style TargetType="NavigationPage" ApplyToDerivedTypes="True">
+                <Setter Property="BarBackgroundColor" Value="{StaticResource MainGray}" />
+                <Setter Property="BarTextColor" Value="{StaticResource MainOrange}" />
+            </Style>
+
+            <Style TargetType="ContentPage" ApplyToDerivedTypes="True">
+                <Setter Property="BackgroundColor" Value="{StaticResource LightGray}" />
+                <Setter Property="Padding" Value="10" />
+            </Style>
+
+            <Style TargetType="TabbedPage" ApplyToDerivedTypes="True">
+                <Setter Property="BarBackgroundColor" Value="{StaticResource MainGray}"/>
+                <Setter Property="BarTextColor" Value="{StaticResource MainOrange}" />
+                <Setter Property="BackgroundColor" Value="{StaticResource LightGray}" />
+            </Style>
+
+            <Style TargetType="Button">
+                <Setter Property="TextColor" Value="{StaticResource MainOrange}" />
+                <Setter Property="FontSize" Value="14" />
+                <Setter Property="FontAttributes" Value="Bold" />
+            </Style>
+
+            <Style TargetType="SearchBar">
+                <Setter Property="PlaceholderColor" Value="{StaticResource MainGray}" />
+                <Setter Property="TextColor" Value="{StaticResource BlackGray}" />
+            </Style>
+            
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource BlackOrange}"/>
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="FontAttributes" Value="Bold" />
+            </Style>
+
+            <Style TargetType="Entry">
+                <Setter Property="TextColor" Value="{StaticResource BlackGray}"/>
+                <Setter Property="PlaceholderColor" Value="{StaticResource MainGray}"/>
+                <Setter Property="FontSize" Value="14" />
+            </Style>
+
+            <Style TargetType="Editor">
+                <Setter Property="TextColor" Value="{StaticResource BlackGray}"/>
+                <Setter Property="BackgroundColor" Value="White" />
+                <Setter Property="FontSize" Value="14" />
+            </Style>
+
+            <Style TargetType="Frame" >
+                <Setter Property="BorderColor" Value="{StaticResource MainGray}"/>
+                <Setter Property="BackgroundColor" Value="{StaticResource LightGray}" />
+            </Style>
+
+            <Style TargetType="ContentView">
+                <Setter Property="BackgroundColor" Value="{StaticResource MainGray}" />
+            </Style>
+            
+        </ResourceDictionary>
+	</Application.Resources>
+</Application>

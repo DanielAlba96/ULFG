@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ULFGService.Startup">
+    <Position X="8" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\Startup.MobileApp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFGService.ULFGInitializer">
+    <Position X="12.25" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\Startup.MobileApp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFGService.Helpers.NotificationManager">
+    <Position X="12.25" Y="4.25" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAoAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\NotificationManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ULFGService.ULFGContext">
+    <Position X="10" Y="2.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAADAAAAAAABAAgAAAEAAACABAAAAAAEAAAAg=</HashCode>
+      <FileName>Models\ULFGContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
